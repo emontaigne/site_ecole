@@ -4,6 +4,7 @@ html, body{
     background-image: url(images/fond.jpg);
     background-repeat: no-repeat;
     background-size: 1999px 1000px;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -61,4 +62,25 @@ h1{
     padding: 10px;
     width: 60px;
     height:60px;
+}
+
+.fleches{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    display: flex;
+}
+
+.precedent{
+    margin-right: 230px;
+}
+.precedent:hover{
+    cursor: pointer;
+}
+
+.suivant:hover{
+    cursor: pointer;
+}
+
+.mois{
+    margin-right: 220px;
 }
