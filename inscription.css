@@ -78,3 +78,8 @@ form {
     flex-direction: column;
     flex-wrap: wrap;
 }
+
+input {
+    border-radius: 5px;
+    border: 1px solid teal;
+}
