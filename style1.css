@@ -52,3 +52,12 @@ ul li {
   .logo{
       width:100px;
   }
+
+  p{
+    text-align:center;
+    width: 100px;
+  }
+
+  .ligne{
+      border-left:1px solid black;
+  }
