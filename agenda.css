@@ -20,6 +20,10 @@ a{
     color:black;
 }
 
+a:hover{
+    font-weight: bold;
+}
+
 /* calendar */
 .agenda{
     position: absolute;
@@ -59,6 +63,7 @@ a{
     padding: 10px;
     width: 60px;
     height:20px;
+    font-size: small;
 }
 
 .rien{
