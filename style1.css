@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    width:100%;
+    margin: auto;
+    padding:50px;
+}
+
+.obligatoire{
+    color:red;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
