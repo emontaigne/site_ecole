@@ -12,7 +12,6 @@ body{
     background-image: url('images/fond.jpg');
     background-size:cover;
     background-repeat:no-repeat;
-    
 }
 
 .obligatoire{
@@ -62,3 +61,24 @@ ul li {
   .ligne{
       border-left:1px solid black;
   }
+
+.deux_cartes{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    width:300px;
+}
+
+.card-title{
+    text-transform: uppercase;
+    text-align:center;
+    font-weight: bold;
+}
+
+.btn, .btn-primary{
+    background-color:#e7af00;
+    display:flex;
+    justify-content: center;
+}
