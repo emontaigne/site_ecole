@@ -43,8 +43,8 @@ a:hover{
 .jour{
     border: 1px solid rgba(0, 0, 0, 0.192);
     padding: 10px;
-    width: 60px;
-    height:60px;
+    width: 70px;
+    height:70px;
     transition: background-color 0.1s;
 }
 
@@ -65,7 +65,7 @@ a:hover{
 .jr{
     border: 1px solid  rgba(0, 0, 0, 0.192);
     padding: 16px;
-    width: 60px;
+    width: 70px;
     height:20px;
     font-size: small;
 }
@@ -77,8 +77,8 @@ a:hover{
 .vide{
     border: 1px solid rgba(0, 0, 0, 0.192);
     padding: 10px;
-    width: 60px;
-    height:60px;
+    width: 70px;
+    height:70px;
 }
 
 .fleches{
