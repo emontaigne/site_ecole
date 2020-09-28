@@ -1,0 +1,148 @@
+/* general */
+*{
+    margin:0;
+    padding:0;
+}
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: 1999px 1000px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1{
+    color:white;
+    margin-left: 200px;
+
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+/* calendar */
+.agenda{
+    position: absolute;
+    margin-left: 700px;
+    background-color: white;
+    margin-top: 100px;
+    
+}
+.row-1, .row-2, .row-3, .row-4, .row-5{
+    display: flex;
+
+}
+
+.jour{
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    padding: 10px;
+    width: 60px;
+    height:60px;
+    transition: background-color 0.1s;
+}
+
+.jour:hover{
+    background-color: rgba(128, 128, 128, 0.384);
+}
+.mini{
+    /* color:palevioletred; */
+    text-align: right;
+
+}
+
+.semaine{
+    display: flex;
+
+}
+
+.jr{
+    border: 1px solid  rgba(0, 0, 0, 0.192);
+    padding: 16px;
+    width: 60px;
+    height:20px;
+    font-size: small;
+}
+
+.rien{
+    text-align: right;
+}
+
+.vide{
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    padding: 10px;
+    width: 60px;
+    height:60px;
+}
+
+.fleches{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    display: flex;
+}
+
+.precedent{
+    margin-right: 230px;
+}
+.precedent:hover{
+    cursor: pointer;
+}
+
+.suivant:hover{
+    cursor: pointer;
+}
+
+.mois{
+    margin-right: 220px;
+}
+
+.popup, .autre_popup{
+    display: none;
+    background-color: white;
+    width:300px;
+    height:400px;
+    position: absolute;
+    margin-left: 300px;
+}
+
+.jour:hover{
+    cursor: pointer;
+}
+
+ul li {
+    list-style-type: none;
+
+  }
+
+
+
+.logo{
+      width:100px;
+  }
+
+p{
+    text-align:center;
+    width: 100px;
+  }
+
+.ligne{
+      border-left:1px solid black;
+  }
+
+.nav{
+    display:flex;
+    justify-content: space-around;
+    padding:0;
+    margin:0;
+}
+.menu{
+    width:25%;
+    display:flex;
+    justify-content: space-between;
+}
