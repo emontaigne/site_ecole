@@ -33,6 +33,7 @@ a:hover{
     margin-left: 700px;
     background-color: white;
     margin-top: 10px;
+    box-shadow: 5px 10px #5f5d5d3b;
     
 }
 .row-1, .row-2, .row-3, .row-4, .row-5{
@@ -109,6 +110,8 @@ a:hover{
     height:400px;
     position: absolute;
     margin-left: 300px;
+    box-shadow: 5px 10px #5f5d5d3b;
+    
 }
 
 .jour:hover{
@@ -145,4 +148,10 @@ p{
     width:25%;
     display:flex;
     justify-content: space-between;
+}
+
+.evenement{
+    background-color: green;
+    color: white;
+
 }
