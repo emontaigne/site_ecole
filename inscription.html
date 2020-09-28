@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscription</title>
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="inscription.css" type="text/css">
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+          <li><a href="index.html"><img class="logo" src="images/logo.jpg" /></a></li>
+        </ul>
+  
+        <ul class="menu">
+          <li><a href="#"><p>Info</p></a></li>
+          <li><a href="agenda.html"><p class="ligne">Agenda</p></a></li>
+          <li><a href="contact.html"><p class="ligne">Contact</p></a></li>
+          <li><a href="#"><i class="far fa-user"></i></a></li>
+          <li><a href="#"><i class="fas fa-search"></i></a></li>
+          <li><a href="#"><i class="fas fa-shopping-basket"></i></a></li>
+        </ul>
+      </nav>
+    
+     <section class=container>
+         <div class="top">
+             <img src="images/inscription.jpg" alt="image inscription" class="displayed">
+         </div>
+         <form action="#" method="POST" class="formulaire">
+             <label for="nomparent">Nom de famille de l'un des parents:</label>
+             <input type="text"> 
+             <label for="prenomparent">Prénom de l'un des parents:</label>
+             <input type="text"> 
+             <label for="nomparent">Nom de famille de l'enfant:</label>
+             <input type="text"> 
+             <label for="prenomparent">Prénom de l'enfant:</label>
+             <input type="text"> 
+             <label for="age">Âge de l'enfant:</label>
+             <input type="number" maxlength="2"> 
+
+             <label for="choixformation">Choisissez la formation:</label>
+           <select name="formations" id="formations">
+             <option value="dessin">Dessin</option>
+             <option value="chant">Chant</option>
+             <option value="danse">Danse</option>
+             <option value="Sport">Sport</option>
+             </select>
+             <button type="submit" value="Submit">Envoyer</button>
+         </form>
+        
+     </section>
+
+</body>
+</html>
