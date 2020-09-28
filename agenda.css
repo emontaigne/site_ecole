@@ -19,6 +19,17 @@ h1{
     margin-left: 200px;
 
 }
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+/* calendar */
 .agenda{
     width:400px;
     margin:auto;
@@ -31,7 +42,7 @@ h1{
 }
 
 .jour{
-    border: 1px solid rgba(0, 0, 0, 0.274);
+    border: 1px solid rgba(0, 0, 0, 0.192);
     padding: 10px;
     width: 60px;
     height:60px;
@@ -65,7 +76,7 @@ h1{
 }
 
 .vide{
-    border: 1px solid rgba(0, 0, 0, 0.274);
+    border: 1px solid rgba(0, 0, 0, 0.192);
     padding: 10px;
     width: 60px;
     height:60px;
@@ -73,7 +84,7 @@ h1{
 
 .fleches{
     padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.274);
+    border: 1px solid rgba(0, 0, 0, 0.192);
     display: flex;
     justify-content: center;
     margin:auto;
